@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+* {
+    font-family: 'Lora', serif;
+}
+body {
+    font-size: 30px;
+    background-color: #f5c0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.content {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+#authorization {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+input {
+    height: 50px;
+    width: 250px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.loading-overlay {
+    position: absolute;
+    background-color: gray;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.fade-out {
+    opacity: 0;
+    visibility: hidden;
+}
+.wrong_password {
+    visibility: hidden;
+}
+
+h1 {
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#heart {
+    color: red;
+}
+
+@media (min-width: 400px) and (max-width: 1000px) {
+    body {
+        font-size: 70px;
+    }
+    input {
+        width: 400px;
+        height: 100px;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    input {
+        font-size: 70px;
+    }
+    img {
+        height: 700px;
+    }
+
+}
+
